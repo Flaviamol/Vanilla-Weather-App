@@ -1,5 +1,5 @@
 body {
-  background-color: #f7fbfc;
+  background-color: #dae1e7;
   font-family: "Raleway", sans-serif;
   color: #071e3d;
 }
@@ -9,30 +9,27 @@ form {
 }
 
 a {
-  color: #071e3d;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 50px auto;
+  color: #3f72af;
 }
 
 .card-weather {
   background-color: #d6e6f2;
-  border: 2px solid #769fcd;
+  border: 2px solid #00909e;
   border-radius: 15px;
-  width: 800px;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 50px auto;
 }
 
 .card-header {
-  border-bottom: 1px solid #769fcd;
-  background-color: rgba(118, 159, 205, 0.2);
-  color: #071e3d;
+  border-bottom: 1px solid #00909e;
+  background-color: #27496d;
+  color: #dbe2ef;
 }
 
+.card-header:first-child {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
 .btn {
   padding: 0.375rem 3.75rem;
   color: #769fcd;
@@ -78,6 +75,11 @@ h1 {
   font-size: 50px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .WeatherInfo li {
   font-weight: 500;
   color: rgba(39, 33, 66, 0.4);
@@ -101,9 +103,13 @@ h1 {
 }
 
 .card-footer {
-  border-bottom: 1px solid #769fcd;
-  background-color: rgba(118, 159, 205, 0.2);
-  color: rgba(39, 33, 66, 0.4);
+  background-color: #27496d;
+  color: #dbe2ef;
   font-weight: 300;
   border-top: 1px solid #769fcd;
+}
+
+.card-footer:last-child {
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
 }
