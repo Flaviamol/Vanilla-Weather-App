@@ -1,3 +1,102 @@
-h1 {
-  color: aquamarine;
+body {
+  background-color: #f7fbfc;
+  font-family: "Raleway", sans-serif;
+  color: #071e3d;
+}
+
+form {
+  margin: 25px;
+}
+
+a {
+  color: #071e3d;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 50px auto;
+}
+
+.card-weather {
+  background-color: #d6e6f2;
+  border: 2px solid #769fcd;
+  border-radius: 15px;
+}
+
+.card-header {
+  border-bottom: 1px solid #769fcd;
+  background-color: rgba(118, 159, 205, 0.2);
+  color: #071e3d;
+}
+
+.btn {
+  padding: 0.375rem 3.75rem;
+  color: #769fcd;
+  border-color: #769fcd;
+  background-color: #f7fbfc;
+}
+
+.WeatherInfo {
+  margin: 50px;
+}
+
+.default-subtitle {
+  font-weight: 300;
+}
+
+.WeatherForecast {
+  margin: 30px 10px;
+}
+
+.current-temperature {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.temp-type {
+  color: #212121;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.current-icon {
+  font-size: 50px;
+}
+
+.WeatherInfo li {
+  font-weight: 500;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.forecast-day {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.forecast-icon {
+  font-size: 32px;
+}
+
+.forecast-temp {
+  padding: 10px;
+}
+
+.card-footer {
+  border-bottom: 1px solid #769fcd;
+  background-color: rgba(118, 159, 205, 0.2);
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 300;
+  border-top: 1px solid #769fcd;
 }
