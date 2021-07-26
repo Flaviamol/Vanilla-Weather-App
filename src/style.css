@@ -87,6 +87,7 @@ ul {
   line-height: 20px;
   list-style: none;
   text-align: left;
+  text-transform: capitalize;
 }
 
 .forecast-day {
