@@ -15,7 +15,113 @@
   </head>
   <body>
     <div class="container">
-      <a href="" class="btn btn-primary">click here</a>
+      <div class="card weather text-center">
+        <div class="card-header">Weather App</div>
+        <div class="card-body">
+          <form>
+            <div class="row input-group mb-3">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter a city.."
+                  class="form-control"
+                  aria-describedby="button-addon2"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  class="btn btn-outline-secondary"
+                  type="submit"
+                  id="button-addon2"
+                  value="Search"
+                >
+                </input>
+              </div>
+            </div>
+          </form>
+
+          <div class="WeatherInfo">
+            <div class="row">
+              <div class="col-6">
+                <h1><span class="default-city-name">Berlin</span>, Weather</h1>
+                <h2 class="default-subtitle">Monday 09:00 am</h2>
+                <ul>
+                  <li>Clear and Shine</li>
+                  <li>Humidity: <strong>17%</strong> Wind: <strong>14 km/h</strong></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <div class="temperature-container d-flex justify-content-end">
+                  🔆
+                  <div>
+                   <span class="current-temperature">26</span>
+                  <span class="temp-type">°C</span> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="WeatherForecast row">
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-day">Tue</div>
+                <div class="forecast-icon">🔆</div> 
+                <div class="forecast-temp">
+                  <span class="forecast-temp-min">12° /</span>
+                  <span class="forecast-temp-max">25°</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-day">Wed</div>
+                <div class="forecast-icon">🔆</div> 
+                <div class="forecast-temp">
+                  <span class="forecast-temp-min">18° /</span>
+                  <span class="forecast-temp-max">30°</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-day">Thu</div>
+                <div class="forecast-icon">🔆</div> 
+                <div class="forecast-temp">
+                  <span class="forecast-temp-min">17° /</span>
+                  <span class="forecast-temp-max">28°</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-day">Fri</div>
+                <div class="forecast-icon">🔆</div> 
+                <div class="forecast-temp">
+                  <span class="forecast-temp-min">20° /</span>
+                  <span class="forecast-temp-max">32°</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-day">Sat</div>
+                <div class="forecast-icon">🔆</div> 
+                <div class="forecast-temp">
+                  <span class="forecast-temp-min">16° /</span>
+                  <span class="forecast-temp-max">29°</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer text-muted">
+        This project was coded by Flávia Mól and is <a href="https://github.com/Flaviamol/Vanilla-Weather-App" target="_blank"
+      rel="noreferrer">open-sourced on GitHub</a>  and  <a href="https://loving-almeida-707ba8.netlify.app" target="_blank"
+      rel="noreferrer">hosted on Netlify</a>.
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
