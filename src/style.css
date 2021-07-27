@@ -50,7 +50,7 @@ h1 {
   text-align: left;
 }
 
-.WeatherForecast {
+.weatherForecast {
   margin: 30px 10px;
 }
 
@@ -123,4 +123,8 @@ li::first-letter {
 .card-footer:last-child {
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
+}
+
+.forecast-temp-max {
+  font-weight: bold;
 }
