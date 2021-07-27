@@ -10,6 +10,7 @@ form {
 
 a {
   color: #3f72af;
+  text-decoration: none;
 }
 
 .card-weather {
@@ -127,4 +128,13 @@ li::first-letter {
 
 .forecast-temp-max {
   font-weight: bold;
+}
+
+.temperature-container .active {
+  color: #071e3d;
+  cursor: default;
+}
+
+.temperature-container .active:hover {
+  text-decoration: none;
 }
