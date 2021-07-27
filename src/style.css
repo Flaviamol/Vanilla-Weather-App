@@ -87,6 +87,9 @@ ul {
   line-height: 20px;
   list-style: none;
   text-align: left;
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
