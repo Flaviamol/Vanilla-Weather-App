@@ -73,14 +73,13 @@ h1 {
 }
 
 .current-icon {
-  width: 70px;
-  height: 70px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .forecast-icon {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
 }
 
 ul {
@@ -104,10 +103,6 @@ li::first-letter {
 .forecast-day {
   padding: 10px;
   font-weight: 600;
-}
-
-.forecast-icon {
-  font-size: 32px;
 }
 
 .forecast-temp {
